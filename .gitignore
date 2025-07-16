@@ -1,24 +1,112 @@
-# Compiled class file
+### Java ###
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Compiled class files and logs
+target/
+build/
+out/
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Environment/Secrets
+.env
+.env.*
+application-*.yml
+application-*.properties
+secrets.yml
+*.pem
+*.crt
+*.key
+
+# Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+.docker/
+*.tar
+
+# Kubernetes
+*.kubeconfig
+*.yaml.backup
+*.yml.backup
+
+# AWS CLI cache & config
+.aws/
+*.tfstate*
+.terraform/
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+**/target/
+
+# Gradle
+.gradle/
+build/
+**/gradlew
+**/gradlew.bat
+**/build/
+
+# Node (if front-end is integrated)
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test outputs
+test-output/
+surefire-reports/
+jacoco.exec
+
+# Local Docker Images
+*.tar
+
+# Kubernetes manifests generated
+k8s-generated/
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.orig
+
+# AWS specific (for terraform or CloudFormation if used)
+*.tfstate
+*.tfvars
+terraform.tfstate*
+*.tfplan
+.terraform/
+cloudformation-template-generated.yaml
